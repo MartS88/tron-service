@@ -1,25 +1,21 @@
 # tron-service
 
 ```bash
-npm install
+bun install
 ```
 
 ```bash
-npx sequelize-cli db:migrate
-```
-
-```bash
-npx sequelize-cli db:seed:all
+bun run migrate
 ```
 
 ## Running the app
 
 ```bash
 # production
-npm run start
+bun run start
 
 # watch mode
-npm run start:dev
+npm run dev
 ```
 
 ## Test
